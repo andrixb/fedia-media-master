@@ -3,15 +3,28 @@ $cl: 'file';
 .#{$cl} {
     &__element {
         display: flex;
-        flex-flow: row;
+        flex-flow: row-reverse;
+        padding: 5px 15px;
+        margin-bottom: 15px; 
+
+        &:nth-child(odd) {
+            flex-flow: row; 
+        }
+
+        &:not(:first-child) {
+            border-top: 1px solid #e0e0e0;
+        }
     }
 
     &__wrapper {}
     
     &__title {
         font-size: 35px;
+        margin-bottom: 5px;
     }
 
     &__description {}
-    &__picture {}
+    &__picture {
+        margin-right: 15px;
+    }
 }
