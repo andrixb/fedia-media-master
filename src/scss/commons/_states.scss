@@ -1,0 +1,19 @@
+.fadein {
+    opacity: 1;
+    transition: opacity ease-in-out .3s;
+}
+
+.fadeout {
+    opacity: 0.2;
+    transition: opacity ease-in-out .3s;
+}
+
+.darken {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color ease-in-out .3s;
+}
+
+.brighter {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color ease-in-out .3s;
+}

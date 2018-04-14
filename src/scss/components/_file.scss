@@ -1,0 +1,17 @@
+$cl: 'file';
+
+.#{$cl} {
+    &__element {
+        display: flex;
+        flex-flow: row;
+    }
+
+    &__wrapper {}
+    
+    &__title {
+        font-size: 35px;
+    }
+
+    &__description {}
+    &__picture {}
+}
