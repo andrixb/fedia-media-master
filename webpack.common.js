@@ -27,12 +27,14 @@ const htmlHome = new HtmlWebpackPlugin({
     title: 'Home',
     hash: true,
     filename: 'index.html',
+    chunks: ['vendor', 'index'],
     template: './src/views/pages/home.pug',
 });
 const htmlAbout = new HtmlWebpackPlugin({
     title: 'About us',
     hash: true,
     filename: 'about.html',
+    chunks: ['vendor', 'about'],
     template: './src/views/pages/about.pug',
 });
 const htmlContact = new HtmlWebpackPlugin({
@@ -51,7 +53,14 @@ const clean = new CleanWebpackPlugin(['dist']);
 
 module.exports = {
     entry: {
-        app: './src/ts/index.tsx'
+        home: './src/ts/index.tsx',
+        about: './src/ts/about.tsx',
+        vendors: ['react']
+    },
+    output: {
+        chunkFilename: '[id].chunk.js',
+        filename: '[name].bundle.js',
+        path: path.resolve(__dirname, 'dist')
     },
     module: {
         rules: [{
@@ -123,9 +132,5 @@ module.exports = {
 
         htmlHome,
         htmlAbout,
-    ],
-    output: {
-        filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'dist')
-    }
+    ]
 };

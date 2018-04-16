@@ -2,9 +2,9 @@ import '../scss/main.scss';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { FMIndex } from './components/FMIndex/FMIndex'; 
+import { FMAbout } from './components/FMAbout/FMAbout'; 
 
 ReactDOM.render(
-    <FMIndex />,
-    document.getElementById('fm-home')
+    <FMAbout />,
+    document.getElementById('fm-about')
 );

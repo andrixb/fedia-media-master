@@ -16,7 +16,7 @@ export class FMNavigation extends React.Component<FMNavigationProps, any> {
                         <a className="menu__itemLink" href="#">home</a> 
                     </li>
                     <li className="menu__item">
-                        <a className="menu__itemLink" href="#">about</a> 
+                        <a className="menu__itemLink" href="about.html">about</a> 
                     </li>
                     <li className="menu__item">
                         <a className="menu__itemLink" href="#">contact</a> 
