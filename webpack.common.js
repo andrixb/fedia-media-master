@@ -13,6 +13,9 @@ const copyFiles = new CopyWebpackPlugin([{
 }, {
     from: 'src/assets/images',
     to: 'assets/images',
+}, {
+    from: 'src/assets/videos',
+    to: 'assets/videos',
 }]);
 const extractCss = new ExtractTextPlugin({
     filename: 'assets/styles/main.min.css',
@@ -48,7 +51,7 @@ const clean = new CleanWebpackPlugin(['dist']);
 
 module.exports = {
     entry: {
-        app: './src/ts/app.ts'
+        app: './src/ts/index.tsx'
     },
     module: {
         rules: [{
@@ -60,6 +63,11 @@ module.exports = {
                 test: /\.(ts|tsx)$/,
                 exclude: /(node_modules|bower_components)/,
                 loader: 'ts-loader',
+            },
+            {
+                enforce: "pre",
+                test: /\.js$/,
+                loader: "source-map-loader"
             },
             {
                 test: /\.pug$/,
@@ -90,7 +98,7 @@ module.exports = {
                     extract: true,
                     spriteFilename: './assets/svg/sprite.svg',
                 },
-            }, 
+            },
             {
                 test: /\.(woff|woff2|eot|ttf)$/,
                 loader: 'url-loader?limit=100000',
@@ -98,10 +106,14 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: ['.tsx', '.ts', '.js', '.jsx', '.json'],
     },
+    // externals: {
+    //     "react": "React",
+    //     "react-dom": "ReactDOM"
+    // },
     plugins: [
-        clean, 
+        clean,
         hmr,
         namedModules,
         extractCss,
