@@ -55,7 +55,7 @@ module.exports = {
     entry: {
         home: './src/ts/index.tsx',
         about: './src/ts/about.tsx',
-        vendors: ['react']
+        vendors: ['react', 'lodash', 'react-dom']
     },
     output: {
         chunkFilename: '[id].chunk.js',
