@@ -1,0 +1,19 @@
+@import '../../../scss/commons/vars';
+
+$cl: 'about';
+
+.#{$cl} {
+    &__container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        @media (min-width: $mq-tablet) {
+            flex-flow: row wrap;
+        }
+
+        @media (min-width: $mq-desktop) {
+            flex-flow: row;
+        }
+    }
+}

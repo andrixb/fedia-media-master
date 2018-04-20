@@ -7,7 +7,7 @@ export interface FMPersonDescriptionProps {
 export class FMPersonDescription extends React.Component<FMPersonDescriptionProps, {}> {        
     render() {
         return this.props.description.map((text: string) => {
-            return <p className="file__description"> {text}</p>;
+            return <p className="person__description"> {text}</p>;
         });
     }
 }
