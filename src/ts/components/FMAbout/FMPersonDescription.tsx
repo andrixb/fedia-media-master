@@ -1,11 +1,13 @@
-import * as React from 'react';
+import * as React from 'react'; 
 
 export interface FMPersonDescriptionProps {
-    text: string;
+    description: any;
 }
 
-export class FMPersonDescription extends React.Component<FMPersonDescriptionProps, {}> {
+export class FMPersonDescription extends React.Component<FMPersonDescriptionProps, {}> {        
     render() {
-        return <p className="file__description"> {this.props.text} </p>
+        return this.props.description.map((text: string) => {
+            return <p className="file__description"> {text}</p>;
+        });
     }
 }
