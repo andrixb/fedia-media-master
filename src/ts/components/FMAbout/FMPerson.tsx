@@ -3,8 +3,7 @@ import { FMPersonDescription } from './FMPersonDescription';
 import * as people from './data';
 import './FMPerson.scss';
 
-export interface FMPersonProps {
-}
+export interface FMPersonProps {}
 
 export class FMPerson extends React.Component<FMPersonProps, {}> {
     render() {

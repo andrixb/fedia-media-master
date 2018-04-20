@@ -1,7 +1,7 @@
 import * as React from 'react'; 
 
 export interface FMPersonDescriptionProps {
-    description: any;
+    description: string[];
 }
 
 export class FMPersonDescription extends React.Component<FMPersonDescriptionProps, {}> {        
