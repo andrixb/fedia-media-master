@@ -27,7 +27,18 @@ $cl: 'person';
         margin-bottom: 5px;
     }
 
-    &__description {}
+    &__description {
+        span {
+            font-weight: 900;
+            color: red;
+            margin-right: 27px;
+
+            &:after {
+                content: ':';
+                position: absolute;
+            }
+        }
+    }
     &__picture {
         margin-right: 15px;
         text-align: center;
