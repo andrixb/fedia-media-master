@@ -1,12 +1,18 @@
 @import '../../../scss/commons/vars';
 
 $cl: 'about';
+$cl2: 'footer';
 
 .#{$cl} {
+    &__content {
+        margin-top: 25px;
+    }
+    
     &__container {
         display: flex;
         flex-flow: column;
-        align-items: center;
+        align-items: flex-start;
+        justify-items: center;
 
         @media (min-width: $mq-tablet) {
             flex-flow: row wrap;
@@ -14,6 +20,14 @@ $cl: 'about';
 
         @media (min-width: $mq-desktop) {
             flex-flow: row;
+        }
+    }
+}
+
+.#{$cl2} {
+    &__container {
+        p {
+            color: black;
         }
     }
 }

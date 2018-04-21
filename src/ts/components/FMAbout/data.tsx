@@ -16,7 +16,7 @@ export default {
         "picture": "http://via.placeholder.com/250x375"
     },
     {
-        "name": "Andrea Baldo",
+        "name": "Claudio Morelli",
         "description": [
             "Date of birth: 1985, June 12th",
             "Eyes and spectacles: brown and no glasses",
@@ -32,7 +32,7 @@ export default {
         "picture": "http://via.placeholder.com/250x375"
     },
     {
-        "name": "Andrea Baldo",
+        "name": "Very Long Name And Surname",
         "description": [
             "Date of birth: 1985, June 12th",
             "Eyes and spectacles: brown and no glasses",
