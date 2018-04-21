@@ -13,7 +13,7 @@ export default {
             "Spoken languages: Italian, Neapolitan, English, Spanish, Catalan",
             "Languages you’ d speak: Arabic"
         ],
-        "picture": "http://via.placeholder.com/250x375"
+        "picture": "/assets/images/ab_profile.jpg"
     },
     {
         "name": "Claudio Morelli",
@@ -29,10 +29,10 @@ export default {
             "Spoken languages: Italian, Neapolitan, English, Spanish, Catalan",
             "Languages you’ d speak: Arabic"
         ],
-        "picture": "http://via.placeholder.com/250x375"
+        "picture": "/assets/images/cm_profile.jpg"
     },
     {
-        "name": "Very Long Name And Surname",
+        "name": "Raffaele Vertaldi",
         "description": [
             "Date of birth: 1985, June 12th",
             "Eyes and spectacles: brown and no glasses",
@@ -45,10 +45,10 @@ export default {
             "Spoken languages: Italian, Neapolitan, English, Spanish, Catalan",
             "Languages you’ d speak: Arabic"
         ],
-        "picture": "http://via.placeholder.com/250x375"
+        "picture": "/assets/images/rv_profile.jpg"
     },
     {
-        "name": "Andrea Baldo",
+        "name": "Elena Montobbio",
         "description": [
             "Date of birth: 1985, June 12th",
             "Eyes and spectacles: brown and no glasses",
@@ -61,10 +61,10 @@ export default {
             "Spoken languages: Italian, Neapolitan, English, Spanish, Catalan",
             "Languages you’ d speak: Arabic"
         ],
-        "picture": "http://via.placeholder.com/250x375"
+        "picture": "/assets/images/em_profile.jpg"
     },
     {
-        "name": "Andrea Baldo",
+        "name": "Gianluca Panella",
         "description": [
             "Date of birth: 1985, June 12th",
             "Eyes and spectacles: brown and no glasses",
@@ -77,7 +77,7 @@ export default {
             "Spoken languages: Italian, Neapolitan, English, Spanish, Catalan",
             "Languages you’ d speak: Arabic"
         ],
-        "picture": "http://via.placeholder.com/250x375"
+        "picture": "/assets/images/gp_profile.jpg"
     }
     ]
 }

@@ -30,5 +30,15 @@ $cl: 'person';
     &__description {}
     &__picture {
         margin-right: 15px;
+        text-align: center;
+
+        img {
+            width: 280px;
+            height: auto;
+
+            @media(min-width: $mq-wide) {
+                width: 480px;
+            }
+        }
     }
 }
