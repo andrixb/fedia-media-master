@@ -27,7 +27,8 @@ export class FMAbout extends React.Component<FMAboutProps, any> {
 
     render() {
         return (
-            <div className={`${this.state.fade ? 'darken' : ''}`}>
+            <div>
+                <div className={`${this.state.fade ? 'darken' : ''}`}></div>
                 <div className="about__logo" onClick={this.handleChange.bind(this)}>
                     <FMNavigation expand={this.state.logoClicked} />
                     <FMLogo logo="fedia" />

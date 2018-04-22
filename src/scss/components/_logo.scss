@@ -17,13 +17,23 @@ $cl: 'logo';
             font-size: 95px;
             z-index: 10;
 
-            @media(min-width: 460px) {
+            @media(min-width: $mq-small) {
                 font-size: 150px;
             }
         }
 
         &--secondary {
-            font-size: 50px;
+            font-size: 70px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+
+            // @media(min-width: $mq-tablet) {
+            //     font-size: 70px;
+            // }
+
+            @media(min-width: $mq-desktop) {
+                font-size: 100px;
+            }
         }
     }
 }
