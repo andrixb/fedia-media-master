@@ -3,8 +3,7 @@ import * as React from 'react';
 import { FMNavigation } from './FMNavigation';
 import { FMHome } from './FMHome';
 
-export interface FMIndexProps { 
-}
+export interface FMIndexProps { }
 
 export class FMIndex extends React.Component<FMIndexProps, any> {
     constructor(props: FMIndexProps) {

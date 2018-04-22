@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FMPersonDescription } from './FMPersonDescription';
-import * as people from './data';
+import * as people from './people.data';
 import './FMPerson.scss';
 
 export interface FMPersonProps {}

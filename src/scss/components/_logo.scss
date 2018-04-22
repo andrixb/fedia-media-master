@@ -3,16 +3,27 @@ $cl: 'logo';
 .#{$cl} {
     &__container {
         z-index: 2;
+        width: 100%;
+        text-align: center;
+    }
 
-        h1 {
+    &__element {
+        &--primary, &--secondary {
             color: #E60081;
-            font-size: 95px;
             cursor: pointer;
+        }
+
+        &--primary {
+            font-size: 95px;
             z-index: 10;
 
             @media(min-width: 460px) {
                 font-size: 150px;
             }
+        }
+
+        &--secondary {
+            font-size: 50px;
         }
     }
 }
