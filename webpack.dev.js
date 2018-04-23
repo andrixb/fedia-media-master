@@ -10,10 +10,17 @@ const htmlIndex = new HtmlWebpackPlugin({
     template: './src/views/pages/home.pug'
 });
 
+const htmlAbout = new HtmlWebpackPlugin({
+    title: 'About',
+    filename: 'about.html',
+    template: './src/views/pages/about.pug'
+});
+
 module.exports = merge(common, {
     devtool: 'source-map',
     plugins: [
-        htmlIndex 
+        htmlIndex,
+        htmlAbout 
     ],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),

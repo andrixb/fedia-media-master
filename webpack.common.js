@@ -119,10 +119,6 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js', '.jsx', '.json'],
     },
-    // externals: {
-    //     "react": "React",
-    //     "react-dom": "ReactDOM"
-    // },
     plugins: [
         clean,
         hmr,

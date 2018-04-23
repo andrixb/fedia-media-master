@@ -71,7 +71,7 @@ export default {
                 "value": "music"
             }
         ],
-        "picture": "/assets/images/ab_profile.jpg"
+        "picture": "assets/images/ab_profile.jpg"
     },
     {
         "name": "Claudio Morelli",
@@ -145,7 +145,7 @@ export default {
                 "value": "music"
             }
         ],
-        "picture": "/assets/images/cm_profile.jpg"
+        "picture": "assets/images/cm_profile.jpg"
     },
     {
         "name": "Elena Montobbio",
@@ -251,7 +251,7 @@ export default {
                 "value": "music"
             }
         ],
-        "picture": "/assets/images/em_profile.jpg"
+        "picture": "assets/images/em_profile.jpg"
     },
     {
         "name": "Raffaele Vertaldi",
@@ -325,7 +325,7 @@ export default {
                 "value": "music"
             }
         ],
-        "picture": "/assets/images/rv_profile.jpg"
+        "picture": "assets/images/rv_profile.jpg"
     },
     {
         "name": "Gianluca Panella",
@@ -399,7 +399,7 @@ export default {
                 "value": "music"
             }
         ],
-        "picture": "/assets/images/gp_profile.jpg"
+        "picture": "assets/images/gp_profile.jpg"
     }
     ]
 }
