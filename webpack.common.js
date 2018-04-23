@@ -44,9 +44,11 @@ const htmlContact = new HtmlWebpackPlugin({
     template: './src/views/pages/contact.pug',
 });
 
+const spriteLoader = new SpriteLoaderPlugin({
+    plainSprite: true
+});
 
 const writeFiles = new WriteFilePlugin();
-const spriteLoader = new SpriteLoaderPlugin();
 const hmr = new webpack.HotModuleReplacementPlugin();
 const namedModules = new webpack.NamedModulesPlugin();
 const clean = new CleanWebpackPlugin(['dist']);

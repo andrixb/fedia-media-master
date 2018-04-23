@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-export interface FMLogoProps { 
+export interface FMLogoSecondaryProps { 
     logo: string;
 }
 
-export class FMLogo extends React.Component<FMLogoProps, {}> { 
+export class FMLogoSecondary extends React.Component<FMLogoSecondaryProps, {}> { 
     render() {
         return (
             <div className="logo__container">

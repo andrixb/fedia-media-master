@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { FMNavigation } from '../FMIndex/FMNavigation';
 import { FMPerson } from './FMPerson';
-import { FMLogo } from './FMLogo';
+import { FMLogoSecondary } from './FMLogoSecondary';
 
 import './FMAbout.scss';
 
@@ -31,7 +31,7 @@ export class FMAbout extends React.Component<FMAboutProps, any> {
                 <div className={`${this.state.fade ? 'darken' : ''}`}></div>
                 <div className="about__logo" onClick={this.handleChange.bind(this)}>
                     <FMNavigation expand={this.state.logoClicked} />
-                    <FMLogo logo="fedia" />
+                    <FMLogoSecondary logo="fedia" />
                 </div>
                 <div className="about__container">
                     <FMPerson />
