@@ -9,26 +9,20 @@ $cl: 'logo';
 
     &__element {
         &--primary, &--secondary {
-            color: #E60081;
+            color: $fm-purple;
             cursor: pointer;
         }
 
         &--primary {
-            // font-size: 95px;
             z-index: 10;
-
-            // @media(min-width: $mq-small) {
-            //     font-size: 150px;
-            // }
+            padding: 15px 25px;
         }
 
         &--secondary {
-            font-size: 70px;
-            margin-top: 15px;
-            margin-bottom: 30px;
+            margin: 30px 0;
 
-            @media(min-width: $mq-desktop) {
-                font-size: 100px;
+            svg {
+                width: 25%;
             }
         }
     }

@@ -11,7 +11,6 @@ export class FMIndex extends React.Component<FMIndexProps, any> {
         this.state = { 
             logoClicked: false 
         };
-        this.handleChange.bind(this);
     }
 
     private handleChange(event: React.MouseEvent<Event>): void {

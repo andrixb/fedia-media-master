@@ -17,7 +17,7 @@ export class FMLogo extends React.Component<FMLogoProps, {}> {
                 <path
                     className="fm-logo__dot"
                     d="M114.37,248.79a8.4,8.4,0,0,0-6.21-2.6A8.88,8.88,0,0,0,99.31,255a8.36,8.36,0,0,0,2.6,6.2,8.62,8.62,0,0,0,6.25,2.55,8.69,8.69,0,0,0,8.75-8.75,8.65,8.65,0,0,0-2.54-6.25"
-                    transform="translate(-28.26 -245.39)" />
+                    transform="translate(-43.26 -245.39)" />
             </svg>
         );
     }

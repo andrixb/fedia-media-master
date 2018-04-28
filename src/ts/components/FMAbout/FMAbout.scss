@@ -17,4 +17,9 @@ $cl: 'about';
             flex-flow: row;
         }
     }
+
+    &__background {
+        background-color: rgba(0, 0, 0, 0.4);
+        transition: background-color ease-in-out .3s;
+    }
 }

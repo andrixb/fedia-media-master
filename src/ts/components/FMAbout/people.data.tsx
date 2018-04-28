@@ -1,6 +1,7 @@
 export default {
     "people": [{
         "name": "Andrea Baldo",
+        "email": "andrea@fedia.media",
         "description": [
             {
                 "label": "Date of birth",
@@ -75,6 +76,7 @@ export default {
     },
     {
         "name": "Claudio Morelli",
+        "email": "claudio@fedia.media",
         "description": [
             {
                 "label": "Date of birth",
@@ -118,7 +120,7 @@ export default {
             },
             {
                 "label": "Lived places",
-                "value": "Naples (I), London (UK), Barcelona (ES)"
+                "value": "many municipalities in Naples. One home in Milano"
             },
             {
                 "label": "Movings made",
@@ -126,29 +128,30 @@ export default {
             },
             {
                 "label": "Favourite cartoon",
-                "value": "Alice in Wonderland"
+                "value": "can I tell you my favourite political talk-show?"
             },
             {
                 "label": "Colour you’d not wear at all",
-                "value": "pink, in all of its shades"
+                "value": "cyan"
             },
             {
                 "label": "Vehicle",
-                "value": "bike"
+                "value": "time ago, my great Honda Transalp. Now tram lines 4 or 2, but I love 10"
             },
             {
                 "label": "Always with",
-                "value": "fresh ideas"
+                "value": "a pen to write and draw on restaurant placemats"
             },
             {
                 "label": "Never without",
-                "value": "music"
+                "value": "OKI (It's a painkiller medicine, I prefer drops for my migraine)"
             }
         ],
         "picture": "assets/images/cm_profile.jpg"
     },
     {
         "name": "Elena Montobbio",
+        "email": "elena@fedia.media",
         "description": [
             {
                 "label": "Date of birth",
@@ -192,69 +195,38 @@ export default {
             },
             {
                 "label": "Lived places",
-                "value": "Naples (I), London (UK), Barcelona (ES)"
+                "value": "Milano, Barcelona, Buenos Aires, Roma"
             },
             {
                 "label": "Movings made",
-                "value": "too many"
+                "value": "8, but is not finished yet"
             },
             {
                 "label": "Favourite cartoon",
-                "value": "Alice in Wonderland"
+                "value": "the one that keep my baby quiet"
             },
             {
                 "label": "Colour you’d not wear at all",
-                "value": "pink, in all of its shades"
+                "value": "cyan with pink"
             },
             {
                 "label": "Vehicle",
-                "value": "bike"
+                "value": "car (I know it’s not cool)"
             },
             {
                 "label": "Always with",
-                "value": "fresh ideas"
+                "value": "new goals"
             },
             {
                 "label": "Never without",
-                "value": "music"
-            },
-            {
-                "label": "Languages you’ d speak",
-                "value": "Arabic"
-            },
-            {
-                "label": "Lived places",
-                "value": "Naples (I), London (UK), Barcelona (ES)"
-            },
-            {
-                "label": "Movings made",
-                "value": "too many"
-            },
-            {
-                "label": "Favourite cartoon",
-                "value": "Alice in Wonderland"
-            },
-            {
-                "label": "Colour you’d not wear at all",
-                "value": "pink, in all of its shades"
-            },
-            {
-                "label": "Vehicle",
-                "value": "bike"
-            },
-            {
-                "label": "Always with",
-                "value": "fresh ideas"
-            },
-            {
-                "label": "Never without",
-                "value": "music"
+                "value": "mobile phone (not even that is cool) and a book"
             }
         ],
         "picture": "assets/images/em_profile.jpg"
     },
     {
         "name": "Raffaele Vertaldi",
+        "email": "raffaele@fedia.media",
         "description": [
             {
                 "label": "Date of birth",
@@ -298,27 +270,31 @@ export default {
             },
             {
                 "label": "Lived places",
-                "value": "Naples (I), London (UK), Barcelona (ES)"
+                "value": "home"
+            },
+            {
+                "label": "Visited places",
+                "value": "too much for a bio, to few for a life"
             },
             {
                 "label": "Movings made",
-                "value": "too many"
+                "value": "several, but the bigger one is yet to come"
             },
             {
                 "label": "Favourite cartoon",
-                "value": "Alice in Wonderland"
+                "value": "everything Miyazaki\'s"
             },
             {
                 "label": "Colour you’d not wear at all",
-                "value": "pink, in all of its shades"
+                "value": "pink (unless it’s the pinkest pink)"
             },
             {
                 "label": "Vehicle",
-                "value": "bike"
+                "value": "rubber soul"
             },
             {
                 "label": "Always with",
-                "value": "fresh ideas"
+                "value": "a book, a pad and a pen"
             },
             {
                 "label": "Never without",
@@ -329,6 +305,7 @@ export default {
     },
     {
         "name": "Gianluca Panella",
+        "email": "gianluca@fedia.media",
         "description": [
             {
                 "label": "Date of birth",
@@ -372,31 +349,35 @@ export default {
             },
             {
                 "label": "Lived places",
-                "value": "Naples (I), London (UK), Barcelona (ES)"
+                "value": "Italy, USA, Palestine"
+            },
+            {
+                "label": "Visited places",
+                "value": "never enough"
             },
             {
                 "label": "Movings made",
-                "value": "too many"
+                "value": "continuously"
             },
             {
                 "label": "Favourite cartoon",
-                "value": "Alice in Wonderland"
+                "value": "Miyazaki\'s Conan"
             },
             {
                 "label": "Colour you’d not wear at all",
-                "value": "pink, in all of its shades"
+                "value": "purple"
             },
             {
                 "label": "Vehicle",
-                "value": "bike"
+                "value": "purple"
             },
             {
                 "label": "Always with",
-                "value": "fresh ideas"
+                "value": "a camera"
             },
             {
                 "label": "Never without",
-                "value": "music"
+                "value": "a knife"
             }
         ],
         "picture": "assets/images/gp_profile.jpg"

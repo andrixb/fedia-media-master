@@ -14,7 +14,8 @@ export class FMPerson extends React.Component<FMPersonProps, {}> {
                         <div className="person__picture" >
                             <img src={`${person.picture}`} alt="profile picture" />
                         </div>
-                        <h1 className="person__title" > {person.name} </h1>
+                        <h2 className="person__title" > {person.name} </h2>
+                        <h3 className="person__email" > {person.email} </h3>
                         <FMPersonDescription description={person.description} />
                     </div>
                 </article>

@@ -20,12 +20,20 @@ $cl: 'person';
         }
     }
 
-    &__wrapper {}
-    
-    &__title {
-        font-size: 30px;
+    &__title, &__email {
         margin-bottom: 15px;
         margin-top: 20px;
+    }
+
+    &__title {
+        font-size: 25px;
+        white-space: nowrap;
+    }
+
+    &__email {
+        color: $fm-purple;
+        font-weight: 300;
+        font-size: 20px;
     }
 
     &__description {
