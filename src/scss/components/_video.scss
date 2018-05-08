@@ -9,4 +9,8 @@ $cl: 'video';
         min-height: 100%;
         z-index: 0;
     }
+
+    &__fallback {
+        background-image: url('../assets/videos/videobkg.gif');
+    }
 }

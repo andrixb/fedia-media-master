@@ -92,7 +92,7 @@ export default {
             },
             {
                 "label": "Main field of action",
-                "value": "Volcanoes"
+                "value": "Visual journalism"
             },
             {
                 "label": "For whom you worked",
